@@ -18,13 +18,18 @@ At this time, there are no specific vaccines or treatments for COVID-19.</p>
 3. HaarCascade files for mouth and face
 
 # Truth Table
+<p> truth table for condition with mask or without mask. </p>
 
 | Face (gray)  |  Face (black & white)  | Mouth | Mask |
 |--------------|:----------------------:|------:|-----:|
 | 0 |  0 | NA | No face found |
 | 0 |  1 | NA | White mask detected |
 | 1 | 0 or >1 | 0 | Mask Found |
-| 1 | 0 or >1 | 1 | No mask found |   
+| 1 | 0 or >1 | 1 | No mask found | 
+
+## References-
+1. https://github.com/Shaligram1234/Python/tree/master/Face_Mask_Detection
+2. https://www.who.int/health-topics/coronavirus
 
 
 
